@@ -1,0 +1,41 @@
+h1. White Labeled e-Commerce Site 
+
+Simple e-commorce site that allows you to quickly implement an online store.  This is meant to be a basic framework that includes user authentication, a Payment Gateway, and a Product model you can begin adding products to immediately. 
+
+*need to update as i add new features.....
+
+h2. Ruby on Rails
+
+This application requires:
+
+* Ruby version 1.9.3
+* Rails version 3.2.13
+
+Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
+
+h2. Database
+
+This application uses SQLite with ActiveRecord.
+
+h2. Development
+
+* Template Engine: ERB
+* Testing Framework: RSpec and Factory Girl and Cucumber
+* Front-end Framework: Twitter Bootstrap (Less)
+* Form Builder: SimpleForm
+* Authentication: Devise
+* Authorization: CanCan
+* Merchant Service: Stripe
+
+
+h2. Getting Started
+
+Once you get the app from github the only change you will need to make to get started is to add in your Stripe Public and Secret Keys to the Stripe.rb file in config/initializers.  From there you will want to add your logos and do some customization.
+
+To create an admin user you can use the rails console as specified in the Devise CanCan and Rolify documentation.
+
+**I need to add more here.....
+
+h2. Documentation and Support
+
+This is the only documentation.
